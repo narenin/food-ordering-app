@@ -1,0 +1,35 @@
+body{
+background:#f8f9fa;
+font-family:'Segoe UI',sans-serif;
+}
+
+.navbar-brand{
+font-weight:bold;
+font-size:24px;
+}
+
+.card{
+transition:0.3s;
+border:none;
+border-radius:10px;
+}
+
+.card:hover{
+transform:scale(1.05);
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card img{
+height:200px;
+object-fit:cover;
+border-radius:10px 10px 0 0;
+}
+
+.price{
+font-weight:bold;
+color:#e63946;
+}
+
+button{
+border-radius:20px;
+}
